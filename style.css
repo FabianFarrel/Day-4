@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+margin: 0;
+}
+
+
+.box {
+    width: 30%;
+    margin: 50px auto; 
+    padding-top: 40px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-left: 200px; 
+    display: flexbox;
+    background-color: white; 
+}
+
+p {
+  font-size: 20px;
+}
+
+p.country {
+  font-weight: 900;
+}
+
+.contact-button {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 22px;
+  transition: background-color 0.3s;
+    }
+
+    /*section*/
+
+    section{
+      padding-top: 4vh;
+      height: 96vh;
+      margin: 0 10rem;
+      box-sizing: border-box;
+      min-height: fit-content;
+  }
+  
+  .section-container{
+      display: flex;
+  }
+  
+  /*PROFILE SECTION*/
+  
+   #Profile{
+      display: flex;
+      gap: 5rem;
+      height: 80vh;
+      justify-content: center;
+      margin: 50px 60px; 
+      box-shadow: 0 0 7px 2px rgba(0,0,0,0.5);
+      padding-top: 10px ;
+      padding-right: 150px;
+      padding-bottom: 45px;
+      padding-left: 150px;
+      
+   }
+  
+   .section__pic{
+      display: block;
+      height: 350px;
+      width: 400px;
+      margin: auto 0 ;
+      box-shadow: 0 0 7px 2px rgba(0,0,0,0.5);
+   }
+  
+  .section__text{
+      align-self: center;
+      text-align: center;
+  }
+  
+  .section__text p{
+      font-weight: 450;
+  }
+  
+  .section__text__p2{
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      text-align: justify;
+  }
+  
+  .title {
+      font-size: 2rem;
+      text-align: left;
+  }
+  
+  #socials-container{
+      display: flex;
+      justify-content: left;
+      margin-top: 2rem;
+      gap: 1rem;
+  }
+  
+  /* ICONS */
+  
+  .icon{
+      cursor: pointer; 
+      height: 2rem;
+  }
+  
+  /* BUTTONS */
+  
+  .btn-container{
+      display: flex;
+      justify-content: left;
+      gap: 2rem;
+      margin-top: 2rem;
+  }
+  
+  .btn{
+      font-weight: 400px;
+      transition: 300ms ease;
+      padding: 1rem;
+      width: 8rem;
+      border-radius: 2rem;
+  }
+  
+  .btn-color-1, .btn-color-2{
+      border: rgb(53, 53, 53) 0.1rems solid;
+  }
+  
+  .btn-color-1:hover, .btn-color-2:hover{
+     cursor: pointer;
+  }
+  .btn-color-1, .btn-color-2 :hover{
+    background:rgb(53, 53, 53);
+    color: white;
+  }
+  
+  .btn-color-1:hover{
+      background: rgb(0, 0, 0);
+  }
+  
+  .btn-color-2{
+      background: none;
+  }
+  .btn-color-2:hover{
+      border: rgb(25, 25, 25) 0.1rem solid ;
+  }
+  
+  .btn-container{
+      gap: 1rem;
+  }
+
+  /* Navbar */
+
+nav {
+  background-color: #dddbd8;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+nav ul li .active {
+  color: rgb(0, 0, 0);
+  margin: 0 10px;
+}
+
+
+.nav-left {
+  flex: 50%;
+}
+
+.nav-right {
+  flex: 50%;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.nav-right a {
+  background-color: rgb(2, 2, 2);
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav-right a:hover {
+  background-color: rgb(150, 148, 143);
+}
+
+/* form styling */
+
+form {
+  width: 350px;
+  margin: 50px auto;
+}
+
+input,
+select,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 182, 182);
+}
+
+textarea {
+  resize: vertical;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  font-weight: 500;
+  
+}
+
+form button {
+  background-color: orangered;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgb(255, 166, 0);
+  transition: 0.5s;
+}
