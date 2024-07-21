@@ -235,7 +235,7 @@ form label {
 }
 
 form button {
-  background-color: orangered;
+  background-color: rgb(16, 16, 16);
   padding: 8px 20px;
   border: none;
   border-radius: 10px;
@@ -246,6 +246,6 @@ form button {
 }
 
 form button:hover {
-  background-color: rgb(255, 166, 0);
+  background-color: rgb(128, 128, 128);
   transition: 0.5s;
 }
