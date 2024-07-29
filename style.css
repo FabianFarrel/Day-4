@@ -182,6 +182,9 @@ nav ul li .active {
   margin: 0 10px;
 }
 
+.active{
+  color:grey;
+}
 
 .nav-left {
   flex: 50%;
